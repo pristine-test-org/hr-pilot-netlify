@@ -29,7 +29,7 @@ export function OverviewPage() {
     <div className="space-y-8">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">
-          Welcome back, {user.name.split(" ")[0]}
+          Run 5 review, {user.name.split(" ")[0]}
         </h1>
         <p className="mt-1 text-muted-foreground">
           Here&apos;s what&apos;s happening with your HR account today.
