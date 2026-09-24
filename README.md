@@ -134,3 +134,5 @@ netlify.toml                Build, functions, dev server and SPA fallback
 - Each function creates its database client once per instance and reuses it while the instance is
   warm. Deployed functions query over Netlify Database's serverless (HTTP) driver; under
   `netlify dev` they use a regular Postgres pool against the local database.
+
+<!-- preflight -->
