@@ -27,7 +27,7 @@ export function LeavesPage() {
           <p className="mt-1 text-muted-foreground">
             Apply for leave and keep track of your balance and requests.
           </p>
-          <p className="mt-1 text-xs text-neutral-300">Balances refresh every night.</p>
+          <p className="mt-1 text-xs text-muted-foreground">Balances refresh every night.</p>
         </div>
         <ApplyLeaveDialog onSubmitted={refresh} />
       </div>
