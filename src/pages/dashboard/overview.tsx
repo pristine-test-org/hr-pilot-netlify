@@ -68,10 +68,10 @@ export function OverviewPage() {
           </div>
 
           {user.role === "ADMIN" && (
-            <Card className="border-primary/30 bg-primary/5">
+            <Card className="border-amber-300 bg-amber-50">
               <CardContent className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-500 text-white">
                     <ClipboardCheck className="h-5 w-5" />
                   </div>
                   <div>
