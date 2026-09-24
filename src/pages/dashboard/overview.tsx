@@ -32,7 +32,7 @@ export function OverviewPage() {
           Welcome back, {user.name.split(" ")[0]}
         </h1>
         <p className="mt-1 text-muted-foreground">
-          Here&apos;s a summary of your leave, payroll and claims today.
+          Here&apos;s a summary of your leave and claims today.
         </p>
       </div>
 
