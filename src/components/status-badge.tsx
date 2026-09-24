@@ -9,7 +9,7 @@ const STATUS_STYLES: Record<string, string> = {
 
 export function StatusBadge({ status }: { status: string }) {
   return (
-    <Badge className={cn("font-medium capitalize", STATUS_STYLES[status])} variant="outline">
+    <Badge className={cn("font-semibold uppercase tracking-wide", STATUS_STYLES[status])} variant="outline">
       {status.toLowerCase()}
     </Badge>
   );
