@@ -57,13 +57,13 @@ export function OverviewPage() {
               icon={ClipboardCheck}
               label="Your pending leaves"
               value={String(data.pendingLeaves)}
-              hint="Awaiting admin approval"
+              hint="Waiting for an admin to decide"
             />
             <StatCard
               icon={Receipt}
               label="Your pending claims"
               value={String(data.pendingClaims)}
-              hint="Awaiting admin approval"
+              hint="Waiting for an admin to decide"
             />
           </div>
 
