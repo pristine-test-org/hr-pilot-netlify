@@ -25,7 +25,7 @@ export function LeavesPage() {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Leaves</h1>
           <p className="mt-1 text-muted-foreground">
-            Apply for leave and keep track of your balance and requests.
+            Apply for leave and follow your balance and every request.
           </p>
         </div>
         <ApplyLeaveDialog onSubmitted={refresh} />
