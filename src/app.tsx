@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { LandingPage } from "@/pages/landing";
 import { LoginPage } from "@/pages/login";
 import { NotFoundPage } from "@/pages/not-found";
+import { ImpeccableTestDrivePage } from "@/pages/impeccable-test-drive";
 
 // The dashboard ships as its own chunks, so the landing and login pages stay light.
 const DashboardLayout = lazy(() => import("@/pages/dashboard/layout").then((m) => ({ default: m.DashboardLayout })));
@@ -21,6 +22,7 @@ export function App() {
           <Routes>
             <Route index element={<LandingPage />} />
             <Route path="login" element={<LoginPage />} />
+            <Route path="impeccable-test-drive" element={<ImpeccableTestDrivePage />} />
             <Route path="dashboard" element={<DashboardLayout />}>
               <Route index element={<OverviewPage />} />
               <Route path="leaves" element={<LeavesPage />} />
