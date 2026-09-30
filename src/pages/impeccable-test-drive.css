@@ -1,0 +1,65 @@
+.td-page {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #242424;
+}
+
+.td-main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+/* Intentional, for Impeccable's test drive: gradient text on the heading. */
+.td-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Intentional, for Impeccable's test drive: a hard-coded colour outside the DESIGN.md palette. */
+.td-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: #ff8a00;
+  color: #ffffff;
+  font-size: 0.875rem;
+}
+
+/* Intentional, for Impeccable's test drive: low-contrast text in a solid light grey. */
+.td-muted {
+  margin-top: 1rem;
+  color: #c8c8c8;
+}
+
+/* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+.td-link {
+  font-size: 10px;
+  color: #3b4fc4;
+}
+
+/* Intentional, for Impeccable's test drive: a transition on a layout property (width). */
+.td-bar {
+  height: 0.5rem;
+  width: 40%;
+  margin-top: 2rem;
+  border-radius: 999px;
+  background: #3b4fc4;
+  transition: width 0.3s;
+}
+.td-bar:hover {
+  width: 100%;
+}
+
+/* Intentional, for Impeccable's test drive: body text flush with the viewport edge, no background. */
+.td-edge {
+  margin: 2rem calc(50% - 50vw) 0;
+  padding: 0;
+  width: 100vw;
+}

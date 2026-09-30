@@ -184,6 +184,9 @@ export function LandingPage() {
             </div>
             <span>HR Pilot &copy; {new Date().getFullYear()}</span>
           </div>
+          <Link to="/impeccable-test-drive" className="hover:underline">
+            Leave planning preview
+          </Link>
           <span>A practice HR SaaS project.</span>
         </div>
       </footer>
